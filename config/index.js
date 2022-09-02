@@ -4,13 +4,13 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wxef48f59d5e575bc9",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "c5aea559d49418d9c56de0edf5c8100c",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "l7VveI213lN86XCZxJJ84GZMl6l0DK9MbRAuNKZT2UA",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "湖南",
     // 所在城市
-    CITY: "惠州",
+    CITY: "长沙",
 
     /** 重要节日相关 */
 
@@ -54,7 +54,7 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
+      {"type": "生日", "name": "自己", "year": "1999", "date": "02-01"},
       {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
       {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
