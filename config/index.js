@@ -24,8 +24,8 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '自己', id: "os0fm6ExYGrmlI87KGjTXTxtjQUo"},
-      {name: '大哥', id: "os0fm6CBv91wQpVCTHJ9idT_mCCM"}, 
+      {name: '小朱', id: "os0fm6ExYGrmlI87KGjTXTxtjQUo"},
+      {name: '小邹', id: "os0fm6CBv91wQpVCTHJ9idT_mCCM"}, 
      /** {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, */
     ],
@@ -54,7 +54,8 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "自己", "year": "1999", "date": "02-01"}
+      {"type": "生日", "name": "小朱", "year": "1999", "date": "02-01"},
+      {"type": "生日", "name": "小邹", "year": "2001", "date": "02-10"} 
     ],
 
     /**
@@ -72,7 +73,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-     // {"keyword": "love_day", date: "2015-05-01"},
+     {"keyword": "认识的日子", date: "2021-06-06"}
       // 结婚纪念日
      //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
@@ -90,13 +91,15 @@ export const config = {
       * */
     SLOT_LIST: [
       // 这样配置的话，就会每次发送这句话
-      {"keyword": "encourage_oneself", contents: "嘀嘀嘀"},
+      {"keyword": "encourage_oneself", contents: "咱很漂亮，自信点"},
       // 这样配置的话，就会每次随机选一句话发送
       {"keyword": "lover_prattle", contents: [
-        "因为太喜欢你，所以看谁都像是情敌。",
-        "申请成为你爱里的永久居民。",
+        "请成为永远疯狂永远浪漫永远清澈的存在。",
+        "就算全世界与你格格不入，总有一个会对你温柔以待。",
         "你很傻，你很笨，可我还是很羡慕你，因为你有我",
         "遇见你，就好像捡到了100斤的运气",
+          "你呀 别否定自己 你特别好 特别值得 总会有人用攒了很久的温柔来温暖你 相信我 你又不差 我们慢慢来",
+          "你就一个，你很特别"
       ]},
     ],
 
