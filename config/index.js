@@ -73,7 +73,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-     {"keyword": "认识的日子", date: "2021-06-06"}
+     {"keyword": "meetingday", date: "2021-06-06"}
       // 结婚纪念日
      //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
