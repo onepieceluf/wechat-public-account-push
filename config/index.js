@@ -24,14 +24,14 @@ export const config = {
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      {name: '自己', id: "os0fm6ExYGrmlI87KGjTXTxtjQUo"}
+      /**{name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
-      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
+      {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, */
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "os0fm6ExYGrmlI87KGjTXTxtjQUo"}, 
     ],
      
     /**
@@ -54,10 +54,7 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "自己", "year": "1999", "date": "02-01"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "生日", "name": "自己", "year": "1999", "date": "02-01"}
     ],
 
     /**
@@ -75,11 +72,11 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
+     // {"keyword": "love_day", date: "2015-05-01"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
+     //{"keyword": "marry_day", date: "2020-01-04"},
       // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
+     // {"keyword": "ex_day", date: "2022-08-31"},
       // sakana日
       // {"keyword": "sakana_day", date: "2022-01-06"},
       // ... 
@@ -93,7 +90,7 @@ export const config = {
       * */
     SLOT_LIST: [
       // 这样配置的话，就会每次发送这句话
-      {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+      {"keyword": "encourage_oneself", contents: "嘀嘀嘀"},
       // 这样配置的话，就会每次随机选一句话发送
       {"keyword": "lover_prattle", contents: [
         "因为太喜欢你，所以看谁都像是情敌。",
